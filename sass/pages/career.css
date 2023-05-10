@@ -255,6 +255,58 @@ main .nc-section3 .iconlar .icon-1 .through {
 main .nc-section3 .iconlar .icon-1:hover {
   background-color: #ECF8F9;
 }
+main .yaqin .f {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #666DFF;
+  padding: 96px;
+  color: white;
+  align-items: center;
+  overflow: hidden;
+}
+main .yaqin .f .rasm {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+main .yaqin .f .on {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+main .yaqin .f .on img {
+  width: 100%;
+  height: 100%;
+}
+main .yaqin .f .left {
+  width: 100%;
+}
+main .yaqin .f .left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+main .yaqin .f .left h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+main .yaqin .f .in {
+  width: 100%;
+}
+main .yaqin .f .in input {
+  width: 100%;
+  padding: 10px;
+}
 
 footer {
   background: white;
@@ -376,6 +428,11 @@ footer .row .col .contact-details i {
     padding: 0 0.8rem;
   }
 }
+@media (max-width: 1000px) {
+  main .yaqin .f {
+    flex-direction: column;
+  }
+}
 @media (max-width: 950px) {
   .nav {
     padding: 0px 30px;
@@ -467,6 +524,19 @@ footer .row .col .contact-details i {
 @media (max-width: 510px) {
   main .nc-section2 .all {
     padding: 28px;
+  }
+}
+@media (max-width: 500px) {
+  main .yaqin .f {
+    padding: 50px;
+  }
+  main .yaqin .f .on {
+    display: none !important;
+  }
+  main .yaqin .f h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
   }
 }
 @media (max-width: 470px) {
