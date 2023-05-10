@@ -194,7 +194,8 @@ p, h1, h2, h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 40px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
   flex-wrap: wrap;
 }
 .head .partner img:nth-child(1) {
@@ -207,6 +208,4 @@ p, h1, h2, h3 {
   .head .partner img:nth-child(1) {
     width: 100%;
   }
-}
-
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */
