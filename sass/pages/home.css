@@ -16,6 +16,11 @@ body {
   padding: 0;
 }
 
+p, h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -152,6 +157,4 @@ body {
 }
 .head .partner {
   display: none;
-}
-
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */
