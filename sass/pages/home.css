@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*:hover {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.containr {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .containr {
+    width: 86%;
+  }
+}
+.head {
+  background: #232536;
+  width: 100%;
+}
+.head .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+.head .header_left {
+  width: 50%;
+}
+.head .header_left .square {
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.0588235294);
+}
+.head .header_left h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  line-height: 60px;
+}
+.head .header_left p {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 15px 0px;
+  width: 95%;
+}
+.head .header_left .link {
+  background: #444CFC;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  transition: 0.3s;
+}
+.head .header_left .link .tex {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.head .header_left .link .tex p {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.head .header_left .link .position {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.head .header_left .link .position img {
+  width: 25px;
+}
+.head .header_left .link:hover {
+  background: #2934f4;
+  color: wheat;
+}
+.head .header_right {
+  width: 40%;
+}
+.head .header_right img {
+  width: 100%;
+}
+@media (max-width: 960px) {
+  .head .header_left h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 840px) {
+  .head .header_left .square {
+    width: 10px;
+    height: 10px;
+  }
+  .head .header_left h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .head .header_left p {
+    font-size: 15px;
+  }
+  .head .header_left .link .tex p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 688px) {
+  .head .header_left {
+    width: 100%;
+    background: linear-gradient(rgba(35, 37, 54, 0.8078431373), rgba(35, 37, 54, 0.8078431373)), url(../../image/imageHome/header.png);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 3px;
+    text-align: center;
+    padding: 60px;
+  }
+  .head .header_left .square {
+    width: 10px;
+    height: 10px;
+  }
+  .head .header_left h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .head .header_left p {
+    font-size: 15px;
+  }
+  .head .header_left .link .tex p {
+    font-size: 14px;
+  }
+  .head .header_right {
+    display: none;
+  }
+}
+.head .partner {
+  display: none;
+}
+
+/*# sourceMappingURL=home.css.map */
