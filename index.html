@@ -11,13 +11,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="aos-by-red.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Finsweet</title>
 </head>
 
 <body>
+
+    <div id="loading">
+        <div class="dash uno"></div>
+        <div class="dash dos"></div>
+        <div class="dash tres"></div>
+        <div class="dash cuatro"></div>
+    </div>
+    
     <div class="head">
 
-        <nav class="d-none">
+        <nav>
             <div class="nav container">
                 <div class="logo">
                     <a href="">{finsweet</a>
@@ -178,7 +188,70 @@
                             </div>
                         </div>
                     </div>
-                    <img class="icn" src="image/imageHome/sec2_icon.png" alt="">
+                    <img class="icn" src="image/imageHome/sec2_iconOur Services.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="containr">
+                <h6>
+                    Our Services
+                </h6>
+                <h2>
+                    We build software solutions that solve client's business challenges
+                </h2>
+                <div class="link">
+                    <a href="#">
+                        Start a Project
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                    <div class="position">
+                        <img src="image/imageHome/head_icon.png" alt="">
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="box2">
+                        <img src="image/imageHome/sec3.png" alt="">
+                        <h3>Technical support</h3>
+                        <p>
+                            We aim to attain the greatest satisfaction for our clients and be one of the prominent names
+                            when it comes to world-class service
+                        </p>
+                        <div class="link1">
+                            <a href="#">
+                                Read more
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="image/imageHome/sec2_1.png" alt="">
+                        <h3>Testing Management</h3>
+                        <p>
+                            We aim to attain the greatest satisfaction for our clients and be one of the prominent names
+                            when it comes to world-class service
+                        </p>
+                        <div class="link1">
+                            <a href="#">
+                                Read more
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="image/imageHome/sec3_1.png" alt="">
+                        <h3>Development</h3>
+                        <p>
+                            We aim to attain the greatest satisfaction for our clients and be one of the prominent names
+                            when it comes to world-class service
+                        </p>
+                        <div class="link1">
+                            <a href="#">
+                                Read more
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -188,140 +261,185 @@
 
     <div class="main2">
         <div class="containr">
-    
-          <div class="main2__body">
-            <div class="dg">
-    
-              <div class="left">
-                <h4>Our Process</h4>
-                <h1>
-                  The process we are working With Our client Worldwide
-                </h1>
-                <h6>Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable.</h6>
-      
-              </div>
-              <div class="right">
-                
-              </div>
+
+            <div class="main2__body">
+                <div class="dg">
+
+                    <div class="left">
+                        <h4>Our Process</h4>
+                        <h1>
+                            The process we are working With Our client Worldwide
+                        </h1>
+                        <h6>Through True Rich Attended does no end it his mother since real had half every him case in
+                            packages enquire we up ecstatic unsatiable.</h6>
+
+                    </div>
+                    <div class="right">
+
+                    </div>
+                </div>
+                <div class="kards">
+                    <div class="kard">
+                        <div class="div1">
+                            <div class="flex">
+                                <div>
+                                    <img class="icon" src="image/imageHome/work_sec.png" alt="">
+                                </div>
+                                <div>
+
+                                    <h5>Discover</h5>
+                                    <p>We aim to attain the greatest satisfaction for our clients and be one of the
+                                        prominent.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="div2">
+                            <img class="icon" src="image/imageHome/sec2_icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="kard">
+                        <div class="div1">
+                            <div class="flex">
+                                <div>
+
+                                    <img class="icon" src="image/imageHome/work_sec_1.png" alt="">
+                                </div>
+                                <div>
+
+                                    <h5>Designing</h5>
+                                    <p>We aim to attain the greatest satisfaction for our clients and be one of the
+                                        prominent.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="div2">
+                            <img src="image/imageHome/sec2_icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="kard">
+                        <div class="div1">
+                            <div class="flex">
+                                <div>
+
+                                    <img class="icon" src="image/imageHome/work_sec_2.png" alt="">
+                                </div>
+                                <div>
+
+                                    <h5>Development</h5>
+                                    <p>We aim to attain the greatest satisfaction for our clients and be one of the
+                                        prominent.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="div2">
+                            <img src="image/imageHome/sec2_icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="kard">
+                        <div class="div2">
+                            <img src="image/imageHome/sec2_icon.png" alt="">
+                        </div>
+                        <div class="div1">
+                            <div class="flex">
+                                <div>
+
+                                    <img class="icon" src="image/imageHome/work_sec_3.png" alt="">
+                                </div>
+                                <div>
+
+                                    <h5>Testing</h5>
+                                    <p>We aim to attain the greatest satisfaction for our clients and be one of the
+                                        prominent.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="kard">
+                        <div class="div2">
+                            <img src="image/imageHome/sec2_icon.png" alt="">
+                        </div>
+                        <div class="div1">
+                            <div class="flex">
+                                <div>
+
+                                    <img class="icon" src="image/imageHome/work_sec_4.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Deployment</h5>
+                                    <p>We aim to attain the greatest satisfaction for our clients and be one of the
+                                        prominent.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="kard">
+                        <div class="div2">
+                            <img src="image/imageHome/sec2_icon.png" alt="">
+                        </div>
+                        <div class="div1">
+                            <div class="flex">
+                                <div>
+
+                                    <img class="icon" src="image/imageHome/work_sec_5.png" alt="">
+                                </div>
+                                <div>
+
+                                    <h5>Maintenance</h5>
+                                    <p>We aim to attain the greatest satisfaction for our clients and be one of the
+                                        prominent.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="kards">
-              <div class="kard">
-                <div class="div1">
-                <div class="flex">
-                  <div>
-    
-                    <img class="icon" src="image/daler-images/icon1.png" alt=""> 
-                  </div>
-                  <div>
-    
-                    <h5>Discover</h5>
-                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                  </div>
-                </div>
-    
-                </div>
-                <div class="div2">
-                  <img src="image/daler-images/shape.png" alt="">
-                </div>
-              </div>
-              <div class="kard">
-                <div class="div1">
-                <div class="flex">
-                  <div>
-    
-                    <img class="icon" src="images/icon3.png" alt=""> 
-                  </div>
-                  <div>
-    
-                    <h5>Designing</h5>
-                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                  </div>
-                </div>
-    
-                </div>
-                <div class="div2">
-                  <img src="image/daler-images/shape.png" alt="">
-                </div>
-              </div>
-              <div class="kard">
-                <div class="div1">
-                <div class="flex">
-                  <div>
-    
-                    <img class="icon" src="image/daler-images/icon4.png" alt=""> 
-                  </div>
-                  <div>
-    
-                    <h5>Development</h5>
-                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                  </div>
-                </div>
-    
-                </div>
-                <div class="div2">
-                  <img src="image/daler-images/shape.png" alt="">
-                </div>
-              </div>
-              <div class="kard">
-                <div class="div2">
-                  <img src="image/daler-images/shape.png" alt="">
-                </div>
-                <div class="div1">
-                <div class="flex">
-                  <div>
-    
-                    <img class="icon" src="image/daler-images/icon2.png" alt=""> 
-                  </div>
-                  <div>
-    
-                    <h5>Testing</h5>
-                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                  </div>
-                </div>
-    
-              </div>
-            </div>
-            <div class="kard">
-                <div class="div2">
-                  <img src="image/daler-images/shape.png" alt="">
-                </div>
-                <div class="div1">
-                <div class="flex">
-                  <div>
-    
-                    <img class="icon" src="images/icon5.png" alt=""> 
-                  </div>
-                  <div>
-                    <h5>Deployment</h5>
-                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                  </div>
-                </div>
-    
-                </div>
-              </div>
-              <div class="kard">
-                <div class="div2">
-                  <img src="image/daler-images/shape.png" alt="">
-                </div>
-                <div class="div1">
-                <div class="flex">
-                  <div>
-    
-                    <img class="icon" src="image/daler-images//icon6.png" alt=""> 
-                  </div>
-                  <div>
-    
-                    <h5>Maintenance</h5>
-                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                  </div>
-                </div>
-    
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <div class="news">
+        <div class="containr">
+            <div class="square"></div>
+            <h2>Read our latest blogs & news</h2>
+            <div class="cards">
+                <div class="card2">
+                    <img src="image/imageHome/new_sec.png" alt="">
+                    <div class="text">
+                        <p>Jan 19, 2021</p>
+                        <h3>
+                            Today’s best design trends for digital products
+                        </h3>
+                        <div class="link1">
+                            <a href="#">
+                                Read more
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="image/imageHome/new_sec_1.png" alt="">
+                    <div class="text">
+                        <p>Jan 19, 2021</p>
+                        <h3>
+                            Today’s best design trends for digital products
+                        </h3>
+                        <div class="link1">
+                            <a href="#">
+                                Read more
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="yaqin container d-none">
