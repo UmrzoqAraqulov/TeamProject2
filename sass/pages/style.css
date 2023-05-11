@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: bolder;
+  /* or 121% */
+  color: #232536;
+}
+.images p {
+  margin-top: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #232536;
+  opacity: 0.87;
+}
+
+.person {
+  display: flex;
+}
+.person p {
+  margin-top: 5px;
+  margin-left: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: black;
+  opacity: 0.87;
+}
+.person .qwerty {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #232536;
+  opacity: 0.6;
+}
+
+.image img {
+  width: 100%;
+}
+
+.content-txt {
+  margin: 0 10rem;
+}
+.content-txt h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+  color: #232536;
+}
+.content-txt p {
+  margin-top: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #232536;
+}
+.content-txt h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  color: #232536;
+}/*# sourceMappingURL=style.css.map */
